@@ -17,6 +17,36 @@
       "name": "William Norton",
       "age": 38,
       "address": "One Secret Place"
+    },
+    {
+      "name": "Isabel Durant",
+      "age": 21,
+      "address": "Av La marina",
+      "id": 4
+    },
+    {
+      "name": "Carlos Durand Rosales",
+      "age": 32,
+      "address": "Av Arequipa 125",
+      "id": 5
+    },
+    {
+      "name": "Pedro Rojas Chavez",
+      "age": 15,
+      "address": "Av. Lima 1254",
+      "id": 6
+    },
+    {
+      "name": "Carlos Rojas",
+      "age": 25,
+      "address": "Av La marina",
+      "id": 7
+    },
+    {
+      "name": "Andres Chura",
+      "age": 58,
+      "address": "Lima",
+      "id": 8
     }
   ]
 }
