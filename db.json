@@ -1,52 +1,384 @@
 {
-  "students": [
+  "diseases" : [
     {
-      "id": 1,
-      "name": "John Doe",
-      "age": 26,
-      "address": "Nowhere"
+      "diseaseName": "Influenza",
+      "category": "Infectious Disease",
+      "causativeAgent": "Influenza virus",
+      "commonSymptoms": "Fever, Cough, Sore throat",
+      "transmissionMethod": "Airborne droplets",
+      "preventionMethods": "Vaccination, Hand hygiene",
+      "diagnosis": {
+        "methods": "Clinical evaluation, Rapid influenza diagnostic tests",
+        "commonIndicators": "Fever > 100.4°F, Positive nasal swab, Myalgia",
+        "differentialDiagnosis": "Common cold, Strep throat, Bronchitis"
+      },
+      "treatment": {
+        "primaryApproach": "Antiviral medications",
+        "supportiveCare": "Rest, Fluids, Pain relievers",
+        "durationDays": 7
+      },
+      "mortalityRatePercent": 0.1,
+      "incidenceRatePer100k": 500
     },
     {
-      "id": 2,
-      "name": "Jason Bourne",
-      "age": 34,
-      "address": "Unknown"
+      "diseaseName": "Hypertension",
+      "category": "Cardiovascular Disease",
+      "causativeAgent": "Multifactorial",
+      "commonSymptoms": "Often asymptomatic",
+      "transmissionMethod": "Non-infectious",
+      "preventionMethods": "Healthy diet, Exercise, Low sodium intake",
+      "diagnosis": {
+        "methods": "Repeated blood pressure measurements",
+        "commonIndicators": "Systolic BP >= 130 mmHg, Diastolic BP >= 80 mmHg, Consistent readings",
+        "differentialDiagnosis": "White coat hypertension, Secondary hypertension"
+      },
+      "treatment": {
+        "primaryApproach": "Antihypertensive medications",
+        "supportiveCare": "Lifestyle modifications, Regular monitoring",
+        "targetBloodPressure": 130
+      },
+      "mortalityRatePercent": 0.5,
+      "incidenceRatePer100k": 3000
     },
     {
-      "id": 3,
-      "name": "William Norton",
-      "age": 38,
-      "address": "One Secret Place"
+      "diseaseName": "GastroesophagealRefluxDisease",
+      "category": "Gastrointestinal Disease",
+      "causativeAgent": "Weakened lower esophageal sphincter",
+      "commonSymptoms": "Heartburn, Regurgitation",
+      "transmissionMethod": "Non-infectious",
+      "preventionMethods": "Avoid trigger foods, Elevate head of bed",
+      "diagnosis": {
+        "methods": "Endoscopy, pH monitoring, Symptom evaluation",
+        "commonIndicators": "Esophageal inflammation, Abnormal acid exposure, Classic symptoms",
+        "differentialDiagnosis": "Peptic ulcer disease, Esophagitis, Angina"
+      },
+      "treatment": {
+        "primaryApproach": "Proton pump inhibitors",
+        "supportiveCare": "Antacids, Lifestyle changes",
+        "durationWeeks": 4
+      },
+      "mortalityRatePercent": 0,
+      "incidenceRatePer100k": 2000
     },
     {
-      "name": "Isabel Durant",
-      "age": 21,
-      "address": "Av La marina",
-      "id": 4
+      "diseaseName": "Osteoarthritis",
+      "category": "Musculoskeletal Disease",
+      "causativeAgent": "Cartilage degeneration",
+      "commonSymptoms": "Joint pain, Stiffness",
+      "transmissionMethod": "Non-infectious",
+      "preventionMethods": "Maintain healthy weight, Regular exercise",
+      "diagnosis": {
+        "methods": "Physical exam, X-rays",
+        "commonIndicators": "Joint space narrowing, Osteophytes, Crepitus",
+        "differentialDiagnosis": "Rheumatoid arthritis, Gout, Septic arthritis"
+      },
+      "treatment": {
+        "primaryApproach": "Pain relievers, Physical therapy",
+        "supportiveCare": "Joint injections, Assistive devices",
+        "painScaleMax": 7
+      },
+      "mortalityRatePercent": 0,
+      "incidenceRatePer100k": 1500
     },
     {
-      "name": "Carlos Durand Rosales",
-      "age": 32,
-      "address": "Av Arequipa 125",
-      "id": 5
+      "diseaseName": "Migraine",
+      "category": "Neurological Disorder",
+      "causativeAgent": "Neurovascular disorder",
+      "commonSymptoms": "Throbbing headache, Nausea, Sensitivity to light",
+      "transmissionMethod": "Non-infectious",
+      "preventionMethods": "Avoid triggers, Prophylactic medications",
+      "diagnosis": {
+        "methods": "Clinical history, Neurological exam",
+        "commonIndicators": "Unilateral headache, Pulsating quality, Photophobia",
+        "differentialDiagnosis": "Tension headache, Cluster headache, Sinusitis"
+      },
+      "treatment": {
+        "primaryApproach": "Triptans, NSAIDs",
+        "supportiveCare": "Rest in a dark room, Cold compress",
+        "frequencyPerMonth": 2
+      },
+      "mortalityRatePercent": 0,
+      "incidenceRatePer100k": 1000
     },
     {
-      "name": "Pedro Rojas Chavez",
-      "age": 15,
-      "address": "Av. Lima 1254",
-      "id": 6
+      "diseaseName": "ChronicObstructivePulmonaryDisease",
+      "category": "Respiratory Disease",
+      "causativeAgent": "Smoking, Air pollution",
+      "commonSymptoms": "Chronic cough, Shortness of breath",
+      "transmissionMethod": "Non-infectious",
+      "preventionMethods": "Smoking cessation, Avoid irritants",
+      "diagnosis": {
+        "methods": "Spirometry",
+        "commonIndicators": "Reduced FEV1/FVC ratio",
+        "differentialDiagnosis": "Asthma, Bronchiectasis, Heart failure"
+      },
+      "treatment": {
+        "primaryApproach": "Bronchodilators, Inhaled corticosteroids",
+        "supportiveCare": "Pulmonary rehabilitation, Oxygen therapy",
+        "fev1PredictedPercent": 60
+      },
+      "mortalityRatePercent": 5,
+      "incidenceRatePer100k": 800
     },
     {
-      "name": "Carlos Rojas",
-      "age": 25,
-      "address": "Av La marina",
-      "id": 7
+      "diseaseName": "UrinaryTractInfection",
+      "category": "Infectious Disease",
+      "causativeAgent": "Bacteria (E. coli)",
+      "commonSymptoms": "Painful urination, Frequent urination",
+      "transmissionMethod": "Ascending infection",
+      "preventionMethods": "Good hygiene, Adequate fluid intake",
+      "diagnosis": {
+        "methods": "Urine analysis",
+        "commonIndicators": "Pyuria, Bacteriuria, Nitrites positive",
+        "differentialDiagnosis": "Vaginitis, Urethritis, Interstitial cystitis"
+      },
+      "treatment": {
+        "primaryApproach": "Antibiotics",
+        "supportiveCare": "Increased fluid intake, Pain relievers",
+        "durationDays": 5
+      },
+      "mortalityRatePercent": 0.01,
+      "incidenceRatePer100k": 1200
     },
     {
-      "name": "Andres Chura",
-      "age": 58,
-      "address": "Lima",
-      "id": 8
+      "diseaseName": "AnxietyDisorder",
+      "category": "Mental Health Disorder",
+      "causativeAgent": "Genetic and environmental factors",
+      "commonSymptoms": "Excessive worry, Restlessness",
+      "transmissionMethod": "Non-infectious",
+      "preventionMethods": "Stress management, Therapy",
+      "diagnosis": {
+        "methods": "Clinical interview, Psychological assessments",
+        "commonIndicators": "Persistent worry, Avoidance behavior",
+        "differentialDiagnosis": "Depressive disorder, Panic disorder"
+      },
+      "treatment": {
+        "primaryApproach": "Cognitive behavioral therapy",
+        "supportiveCare": "Medications (SSRIs, SNRIs)",
+        "severityScaleMax": 10
+      },
+      "mortalityRatePercent": 0,
+      "incidenceRatePer100k": 1500
+    },
+    {
+      "diseaseName": "AllergicRhinitis",
+      "category": "Immune Disorder",
+      "causativeAgent": "Allergens (pollen, dust mites)",
+      "commonSymptoms": "Sneezing, Runny nose, Itchy eyes",
+      "transmissionMethod": "Environmental exposure",
+      "preventionMethods": "Avoid allergens, Air purifiers",
+      "diagnosis": {
+        "methods": "Skin prick test, Allergy blood test",
+        "commonIndicators": "Positive allergy tests, Nasal congestion",
+        "differentialDiagnosis": "Common cold, Sinusitis, Non-allergic rhinitis"
+      },
+      "treatment": {
+        "primaryApproach": "Antihistamines, Nasal corticosteroids",
+        "supportiveCare": "Nasal saline rinse",
+        "symptomScoreMax": 5
+      },
+      "mortalityRatePercent": 0,
+      "incidenceRatePer100k": 2500
+    },
+    {
+      "diseaseName": "PepticUlcerDisease",
+      "category": "Gastrointestinal Disease",
+      "causativeAgent": "H. pylori infection, NSAID use",
+      "commonSymptoms": "Abdominal pain",
+      "transmissionMethod": "Bacterial infection",
+      "preventionMethods": "Avoid excessive NSAID use, Treat H. pylori",
+      "diagnosis": {
+        "methods": "Endoscopy, Biopsy, H. pylori testing",
+        "commonIndicators": "Ulceration on endoscopy, Positive H. pylori test",
+        "differentialDiagnosis": "Gastritis, GERD, Pancreatitis"
+      },
+      "treatment": {
+        "primaryApproach": "Antibiotics (for H. pylori), Proton pump inhibitors",
+        "supportiveCare": "Avoid irritants",
+        "healingWeeks": 8
+      },
+      "mortalityRatePercent": 0.1,
+      "incidenceRatePer100k": 500
+    },
+    {
+      "diseaseName": "Hypothyroidism",
+      "category": "Endocrine Disorder",
+      "causativeAgent": "Autoimmune disease (Hashimoto's)",
+      "commonSymptoms": "Fatigue, Weight gain, Cold intolerance",
+      "transmissionMethod": "Non-infectious",
+      "preventionMethods": "No specific prevention",
+      "diagnosis": {
+        "methods": "Thyroid function tests (TSH, Free T4)",
+        "commonIndicators": "Elevated TSH, Low Free T4",
+        "differentialDiagnosis": "Subclinical hypothyroidism, Depression"
+      },
+      "treatment": {
+        "primaryApproach": "Levothyroxine",
+        "supportiveCare": "Regular monitoring",
+        "targetTshLevel": 2.5
+      },
+      "mortalityRatePercent": 0.05,
+      "incidenceRatePer100k": 400
+    },
+    {
+      "diseaseName": "Gout",
+      "category": "Metabolic Disorder",
+      "causativeAgent": "Hyperuricemia",
+      "commonSymptoms": "Sudden joint pain",
+      "transmissionMethod": "Non-infectious",
+      "preventionMethods": "Avoid high-purine foods, Medications",
+      "diagnosis": {
+        "methods": "Joint fluid analysis",
+        "commonIndicators": "Urate crystals in synovial fluid",
+        "differentialDiagnosis": "Septic arthritis, Pseudogout"
+      },
+      "treatment": {
+        "primaryApproach": "NSAIDs, Colchicine",
+        "supportiveCare": "Allopurinol (for prevention)",
+        "urateLevelTarget": 6
+      },
+      "mortalityRatePercent": 0,
+      "incidenceRatePer100k": 300
+    },
+    {
+      "diseaseName": "Eczema",
+      "category": "Immune Disorder",
+      "causativeAgent": "Genetic and environmental factors",
+      "commonSymptoms": "Itchy, red rash",
+      "transmissionMethod": "Non-infectious",
+      "preventionMethods": "Avoid irritants, Moisturize skin",
+      "diagnosis": {
+        "methods": "Clinical examination",
+        "commonIndicators": "Pruritic, erythematous patches",
+        "differentialDiagnosis": "Psoriasis, Contact dermatitis"
+      },
+      "treatment": {
+        "primaryApproach": "Topical corticosteroids",
+        "supportiveCare": "Emollients, Antihistamines",
+        "affectedAreaPercent": 15
+      },
+      "mortalityRatePercent": 0,
+      "incidenceRatePer100k": 1800
+    },
+    {
+      "diseaseName": "SleepApnea",
+      "category": "Sleep Disorder",
+      "causativeAgent": "Airway obstruction",
+      "commonSymptoms": "Snoring, Daytime sleepiness",
+      "transmissionMethod": "Non-infectious",
+      "preventionMethods": "Maintain healthy weight, Avoid alcohol before bed",
+      "diagnosis": {
+        "methods": "Polysomnography",
+        "commonIndicators": "Apnea-hypopnea index (AHI) > 5",
+        "differentialDiagnosis": "Narcolepsy, Insomnia"
+      },
+      "treatment": {
+        "primaryApproach": "Continuous positive airway pressure (CPAP)",
+        "supportiveCare": "Weight loss, Oral appliances",
+        "ahiThresholdSevere": 30
+      },
+      "mortalityRatePercent": 0.2,
+      "incidenceRatePer100k": 600
+    },
+    {
+      "diseaseName": "IrritableBowelSyndrome",
+      "category": "Gastrointestinal Disorder",
+      "causativeAgent": "Multifactorial",
+      "commonSymptoms": "Abdominal pain, Bloating",
+      "transmissionMethod": "Non-infectious",
+      "preventionMethods": "Stress management, Dietary modifications",
+      "diagnosis": {
+        "methods": "Rome criteria",
+        "commonIndicators": "Recurrent abdominal pain, Change in bowel habits",
+        "differentialDiagnosis": "Inflammatory bowel disease, Celiac disease"
+      },
+      "treatment": {
+        "primaryApproach": "Dietary changes, Antispasmodics",
+        "supportiveCare": "Probiotics, Stress reduction",
+        "painScoreAverage": 6
+      },
+      "mortalityRatePercent": 0,
+      "incidenceRatePer100k": 1000
+    },
+    {
+      "diseaseName": "CarpalTunnelSyndrome",
+      "category": "Neurological Disorder",
+      "causativeAgent": "Median nerve compression",
+      "commonSymptoms": "Numbness in hand",
+      "transmissionMethod": "Non-infectious",
+      "preventionMethods": "Ergonomic adjustments",
+      "diagnosis": {
+        "methods": "Nerve conduction studies",
+        "commonIndicators": "Prolonged distal motor latency",
+        "differentialDiagnosis": "Ulnar nerve entrapment, Cervical radiculopathy"
+      },
+      "treatment": {
+        "primaryApproach": "Wrist splinting",
+        "supportiveCare": "Corticosteroid injections, Surgery",
+        "nerveConductionVelocity": 40
+      },
+      "mortalityRatePercent": 0,
+      "incidenceRatePer100k": 400
+    },
+    {
+      "diseaseName": "Sinusitis",
+      "category": "Infectious Disease",
+      "causativeAgent": "Viral or bacterial infection",
+      "commonSymptoms": "Facial pain, Nasal congestion",
+      "transmissionMethod": "Viral or bacterial spread",
+      "preventionMethods": "Good hygiene",
+      "diagnosis": {
+        "methods": "Clinical evaluation, CT scan (if chronic)",
+        "commonIndicators": "Facial tenderness, Purulent nasal discharge",
+        "differentialDiagnosis": "Allergic rhinitis, Common cold"
+      },
+      "treatment": {
+        "primaryApproach": "Antibiotics (if bacterial)",
+        "supportiveCare": "Nasal saline rinse, Decongestants",
+        "durationDays": 10
+      },
+      "mortalityRatePercent": 0,
+      "incidenceRatePer100k": 2000
+    },
+    {
+      "diseaseName": "Conjunctivitis",
+      "category": "Infectious Disease",
+      "causativeAgent": "Viral, bacterial, or allergic",
+      "commonSymptoms": "Redness of the eye",
+      "transmissionMethod": "Direct contact",
+      "preventionMethods": "Hand hygiene",
+      "diagnosis": {
+        "methods": "Clinical examination",
+        "commonIndicators": "Eye discharge, Gritty sensation",
+        "differentialDiagnosis": "Iritis, Keratitis"
+      },
+      "treatment": {
+        "primaryApproach": "Antibiotic eye drops (for bacterial)",
+        "supportiveCare": "Warm or cold compresses",
+        "durationDays": 7
+      },
+      "mortalityRatePercent": 0,
+      "incidenceRatePer100k": 1500
+    },
+    {
+      "diseaseName": "TensionHeadache",
+      "category": "Neurological Disorder",
+      "causativeAgent": "Muscle tension",
+      "commonSymptoms": "Dull, aching head pain",
+      "transmissionMethod": "Non-infectious",
+      "preventionMethods": "Stress management",
+      "diagnosis": {
+        "methods": "Clinical history",
+        "commonIndicators": "Bilateral headache, Non-pulsating",
+        "differentialDiagnosis": "Migraine, Sinusitis"
+      },
+      "treatment": {
+        "primaryApproach": "Over-the-counter pain relievers",
+        "supportiveCare": "Heat or cold packs",
+        "frequencyPerMonth": 4
+      },
+      "mortalityRatePercent": 0,
+      "incidenceRatePer100k": 3000
     }
   ]
 }
