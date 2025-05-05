@@ -1,0 +1,232 @@
+[
+  {
+    "cityName": "Rome",
+    "region": "Lazio",
+    "countryCode": "IT",
+    "population": 2860009,
+    "areaSqKm": 1285.3,
+    "foundationYear": -753,
+    "location": {
+      "latitude": 41.9028,
+      "longitude": 12.4964
+    },
+    "majorAttraction": "Colosseum",
+    "localDetails": {
+      "climate": {
+        "averageTempC": 15,
+        "precipitationMm": 800,
+        "sunshineHours": 2500
+      },
+      "localDish": "Pasta Cacio e Pepe",
+      "airportCode": "FCO"
+    },
+    "timeZone": "Europe/Rome"
+  },
+  {
+    "cityName": "Milan",
+    "region": "Lombardy",
+    "countryCode": "IT",
+    "population": 1399239,
+    "areaSqKm": 181.76,
+    "foundationYear": -600,
+    "location": {
+      "latitude": 45.4654,
+      "longitude": 9.1859
+    },
+    "majorAttraction": "Duomo di Milano",
+    "localDetails": {
+      "climate": {
+        "averageTempC": 13,
+        "precipitationMm": 900,
+        "sunshineHours": 2000
+      },
+      "localDish": "Risotto alla Milanese",
+      "airportCode": "MXP"
+    },
+    "timeZone": "Europe/Rome"
+  },
+  {
+    "cityName": "Naples",
+    "region": "Campania",
+    "countryCode": "IT",
+    "population": 3067957,
+    "areaSqKm": 117.27,
+    "foundationYear": -470,
+    "location": {
+      "latitude": 40.8359,
+      "longitude": 14.2487
+    },
+    "majorAttraction": "Pompeii (nearby)",
+    "localDetails": {
+      "climate": {
+        "averageTempC": 17,
+        "precipitationMm": 1000,
+        "sunshineHours": 2700
+      },
+      "localDish": "Pizza Napoletana",
+      "airportCode": "NAP"
+    },
+    "timeZone": "Europe/Rome"
+  },
+  {
+    "cityName": "Turin",
+    "region": "Piedmont",
+    "countryCode": "IT",
+    "population": 847287,
+    "areaSqKm": 130.17,
+    "foundationYear": -28,
+    "location": {
+      "latitude": 45.0703,
+      "longitude": 7.6869
+    },
+    "majorAttraction": "Mole Antonelliana",
+    "localDetails": {
+      "climate": {
+        "averageTempC": 12,
+        "precipitationMm": 850,
+        "sunshineHours": 1900
+      },
+      "localDish": "Agnolotti al Plin",
+      "airportCode": "TRN"
+    },
+    "timeZone": "Europe/Rome"
+  },
+  {
+    "cityName": "Palermo",
+    "region": "Sicily",
+    "countryCode": "IT",
+    "population": 678472,
+    "areaSqKm": 158.9,
+    "foundationYear": -734,
+    "location": {
+      "latitude": 38.1157,
+      "longitude": 13.3613
+    },
+    "majorAttraction": "Palermo Cathedral",
+    "localDetails": {
+      "climate": {
+        "averageTempC": 19,
+        "precipitationMm": 600,
+        "sunshineHours": 2900
+      },
+      "localDish": "Arancini",
+      "airportCode": "PMO"
+    },
+    "timeZone": "Europe/Rome"
+  },
+  {
+    "cityName": "Genoa",
+    "region": "Liguria",
+    "countryCode": "IT",
+    "population": 580097,
+    "areaSqKm": 243.03,
+    "foundationYear": -600,
+    "location": {
+      "latitude": 44.4118,
+      "longitude": 8.9326
+    },
+    "majorAttraction": "Port of Genoa",
+    "localDetails": {
+      "climate": {
+        "averageTempC": 16,
+        "precipitationMm": 1100,
+        "sunshineHours": 2200
+      },
+      "localDish": "Pesto Genovese",
+      "airportCode": "GOA"
+    },
+    "timeZone": "Europe/Rome"
+  },
+  {
+    "cityName": "Bologna",
+    "region": "Emilia-Romagna",
+    "countryCode": "IT",
+    "population": 394878,
+    "areaSqKm": 140.7,
+    "foundationYear": -534,
+    "location": {
+      "latitude": 44.4949,
+      "longitude": 11.3426
+    },
+    "majorAttraction": "Two Towers",
+    "localDetails": {
+      "climate": {
+        "averageTempC": 14,
+        "precipitationMm": 750,
+        "sunshineHours": 2100
+      },
+      "localDish": "Tortellini in Brodo",
+      "airportCode": "BLQ"
+    },
+    "timeZone": "Europe/Rome"
+  },
+  {
+    "cityName": "Florence",
+    "region": "Tuscany",
+    "countryCode": "IT",
+    "population": 382258,
+    "areaSqKm": 102.41,
+    "foundationYear": -59,
+    "location": {
+      "latitude": 43.7696,
+      "longitude": 11.2558
+    },
+    "majorAttraction": "Uffizi Gallery",
+    "localDetails": {
+      "climate": {
+        "averageTempC": 15,
+        "precipitationMm": 950,
+        "sunshineHours": 2400
+      },
+      "localDish": "Bistecca alla Fiorentina",
+      "airportCode": "FLR"
+    },
+    "timeZone": "Europe/Rome"
+  },
+  {
+    "cityName": "Bari",
+    "region": "Apulia",
+    "countryCode": "IT",
+    "population": 315284,
+    "areaSqKm": 116.06,
+    "foundationYear": -1500,
+    "location": {
+      "latitude": 41.1256,
+      "longitude": 16.8639
+    },
+    "majorAttraction": "Basilica di San Nicola",
+    "localDetails": {
+      "climate": {
+        "averageTempC": 18,
+        "precipitationMm": 650,
+        "sunshineHours": 2800
+      },
+      "localDish": "Orecchiette alle Cime di Rapa",
+      "airportCode": "BRI"
+    },
+    "timeZone": "Europe/Rome"
+  },
+  {
+    "cityName": "Catania",
+    "region": "Sicily",
+    "countryCode": "IT",
+    "population": 311584,
+    "areaSqKm": 182.5,
+    "foundationYear": -729,
+    "location": {
+      "latitude": 37.5079,
+      "longitude": 15.0878
+    },
+    "majorAttraction": "Mount Etna (nearby)",
+    "localDetails": {
+      "climate": {
+        "averageTempC": 20,
+        "precipitationMm": 550,
+        "sunshineHours": 3000
+      },
+      "localDish": "Pasta alla Norma",
+      "airportCode": "CTA"
+    },
+    "timeZone": "Europe/Rome"
+  }
+]
