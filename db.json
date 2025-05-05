@@ -179,46 +179,6 @@
       },
       "mortalityRatePercent": 0,
       "incidenceRatePer100k": 2500
-    },
-    {
-      "diseaseName": "PepticUlcerDisease",
-      "category": "Gastrointestinal Disease",
-      "causativeAgent": "H. pylori infection, NSAID use",
-      "commonSymptoms": "Abdominal pain",
-      "transmissionMethod": "Bacterial infection",
-      "preventionMethods": "Avoid excessive NSAID use, Treat H. pylori",
-      "diagnosis": {
-        "methods": "Endoscopy, Biopsy, H. pylori testing",
-        "commonIndicators": "Ulceration on endoscopy, Positive H. pylori test",
-        "differentialDiagnosis": "Gastritis, GERD, Pancreatitis"
-      },
-      "treatment": {
-        "primaryApproach": "Antibiotics (for H. pylori), Proton pump inhibitors",
-        "supportiveCare": "Avoid irritants",
-        "healingWeeks": 8
-      },
-      "mortalityRatePercent": 0.1,
-      "incidenceRatePer100k": 500
-    },
-    {
-      "diseaseName": "Hypothyroidism",
-      "category": "Endocrine Disorder",
-      "causativeAgent": "Autoimmune disease (Hashimoto's)",
-      "commonSymptoms": "Fatigue, Weight gain, Cold intolerance",
-      "transmissionMethod": "Non-infectious",
-      "preventionMethods": "No specific prevention",
-      "diagnosis": {
-        "methods": "Thyroid function tests (TSH, Free T4)",
-        "commonIndicators": "Elevated TSH, Low Free T4",
-        "differentialDiagnosis": "Subclinical hypothyroidism, Depression"
-      },
-      "treatment": {
-        "primaryApproach": "Levothyroxine",
-        "supportiveCare": "Regular monitoring",
-        "targetTshLevel": 2.5
-      },
-      "mortalityRatePercent": 0.05,
-      "incidenceRatePer100k": 400
     }
   ]
 }
